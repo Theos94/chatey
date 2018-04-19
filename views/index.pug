@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    title Chatey
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Raleway:300i,400,600i,700i")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.dev.js")
+    script(src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js")
+
+  body
+    #particles-js
+    .main
+      .header
+        h1 CHATEY
+        p Simple, Elegant, Anonymous Chat
+
+      .chat
+        input(type="text" id="username" placeholder="Your Username...")
+        ul(class="chat__list")
+          //- li <span>Theos :  </span> Hello there
+          //- li <span>Griveous :  </span> General Kenobi
+          //- li <span>Theos :  </span> Prequler i see...
+
+        .chat__inputs
+          input(type="text" id="message" placeholder="Your Message...")
+          button(id="btn") SEND
+
+      .footer
+        p One Window, One Session.
+        p Restarts on Reload.
+
+  script(src="chat.js")
+
+
+
+

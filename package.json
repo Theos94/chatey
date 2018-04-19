@@ -1,0 +1,20 @@
+{
+  "name": "chatey",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Theos",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "socket.io": "^2.1.0",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "styles":
+      "stylus -u autoprefixer-stylus ./styles/style.styl -o ./public/style.css",
+    "styles:watch":
+      "stylus -u autoprefixer-stylus -w ./styles/style.styl -o ./public/style.css"
+  }
+}
