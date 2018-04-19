@@ -3,7 +3,7 @@ Simple chat app with socket.io
 
 Im using nodemon to get it up and running. Its set to start on port 4004.
 
-Use npm install to get all dependencies or if youre using yarn just type yarn install.
+Use npm install to get all dependencies or if you are using yarn just type yarn install.
 
 Open a few windows of the same page and see how its working.
 
